@@ -6,6 +6,7 @@
     ,"underscore": ""
     ,"cheerio": "0.0.3"
     ,"commander": "1.2.0"
+    ,"restler" : "2.0.1"
   }
   ,"engines": {
     "node": "0.8.x"
