@@ -149,8 +149,52 @@
          </div>
       </div>
 
+      <!-- We define a new 'actions' div to contain statistics, order, and share buttons. -->
+      <div class="span5 actions">
+         <div class="span8 offset2">
+             <div class="statistics">
+                <div class="span4">
+                  <!-- 
+                    linediv-l and linediv-r give dividing lines that look 
+                    different in horizontal and vertical layouts, illustrating
+                    media queries. 
+                  -->
+                  <div class="linediv-l">
+                     <h3>1000</h3> <p>backers</p>
+                  </div>
+             </div>
+             <div class="span4">
+                 <div class="linediv-c">
+                    <h3>$6000</h3><p>of $10,000</p>
+                 </div>
+             </div>
+             <div class="span4">
+                 <div class="linediv-r">
+                    <h3>10</h3><p>days left</p>
+                 </div>
+             </div>
+         </div><!-- span8 offset2 -->
 
-  </div>
+         <div class="span10 offset1">
+         <!-- Bootstrap progress bar -->
+         <!-- http://twitter.github.io/bootstrap/components.html#progrss -->
+            <div class="thermometer progress active">
+               <div class="bar bar-success" style="width: 60%;"></div>
+               <div class="bar bar-warning" style="width: 40%;"></div>
+            </div>
+         </div><!-- span10 offset1 -->
+         
+         <div class="span6 offset3 order">
+           <!-- Standard Bootstrap button. -->
+           <!-- http://twitter.github.io/bootstrap-social-buttons -->
+           <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter </button>
+           <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook </button>
+         </div><!-- span6 offset3 order -->
+      </div><!-- Actions -->
+
+      <!-- Beyond this part the marketing copy begins. -->
+
+  </div><!-- container -->
 
      <div class="container">
         <div class="row navigation">
